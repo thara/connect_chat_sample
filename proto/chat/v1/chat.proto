@@ -39,7 +39,7 @@ message MessagesResponse {
 }
 
 message LeaveRequest {
-  uint64 id = 1;
+  uint64 recipient_id = 1;
 }
 
 message LeaveResponse {}
